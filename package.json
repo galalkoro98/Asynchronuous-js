@@ -1,0 +1,28 @@
+{
+    "name": "Asynchronuous-js",
+    "version": "1.0.0",
+    "type": "module",
+    "description": "",
+    "repository": {
+        "type": "git",
+        "url": "https://github.com/galalkoro98/Asynchronuous-js.git"
+    },
+    "scripts": {
+        "test": "jest",
+        "format": "prettier --write ./"
+    },
+    "license": "MIT",
+    "bugs": {
+        "url": "https://github.com/galalkoro98/Asynchronuous-js/issues"
+    },
+    "homepage": "",
+    "devDependencies": {
+        "@babel/core": "^7.20.5",
+        "@babel/plugin-transform-modules-commonjs": "^7.19.6",
+        "@babel/preset-env": "^7.20.2",
+        "@types/jest": "^29.2.4",
+        "babel-jest": "^29.3.1",
+        "jest": "^27.5.1",
+        "prettier": "^2.3.2"
+    }
+}
