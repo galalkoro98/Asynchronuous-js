@@ -1,4 +1,4 @@
-const stocks = {
+export const stocks = {
   Fruits: ["strawberry", "grapes", "banana", "apple"],
   liquid: ["water", "ice"],
   holder: ["cone", "cup", "stick"],
@@ -22,5 +22,3 @@ const stocks = {
     "./img/machine.jpg",
   ],
 };
-
-export default stocks;
