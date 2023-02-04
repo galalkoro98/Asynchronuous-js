@@ -1,7 +1,7 @@
-import { buttonHandler } from "./handler.js";
+import { handler } from "./handler.js";
+
 export default function () {
-    document.getElementById("ice").addEventListener("click", buttonHandler);
-    
+  const button = document.getElementById("btn");
+
+  button.addEventListener("click", handler);
 }
-
-

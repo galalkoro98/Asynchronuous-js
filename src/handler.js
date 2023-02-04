@@ -1,7 +1,5 @@
-// import stocks from "./data.js";
-import { production } from "./util.js";
+import { production } from "./logic.js";
 
-export const buttonHandler = () => {
-  const start = production();
-  document.getElementById("display").innerHTML = start;
+export const handler = () => {
+  production();
 };
